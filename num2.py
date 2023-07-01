@@ -1,0 +1,13 @@
+import numpy as np
+a1=np.arange(6)
+print(a1)
+a2=np.array([5,3,3,1,6,5,8,9,2,3,4,2])
+a2=a2.reshape(3,4)
+print(a2)
+mn=np.argmin(a2)
+print(mn)
+mx=np.argmax(a2)
+print(mx)
+array1=np.array([[6,7,3,5,6,3,6,3,5,9,8,2],[9,6,1,3,4,2,4,5,3,4,6,5]])
+sr=np.argsort(array1)
+print(sr)

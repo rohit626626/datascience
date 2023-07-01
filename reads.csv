@@ -1,0 +1,6 @@
+import pandas as pd
+df=pd.read_csv('data1.csv')
+print(df.head())
+print(df['PREV_CLOSE'])
+print(df['SYMBOL'].dtype)
+print(df['SERIES'].astype('category'))

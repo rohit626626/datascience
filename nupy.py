@@ -1,0 +1,12 @@
+import numpy as np
+array1=np.array([[1,2,3,5,6,3,6,3,5],[3,4,2,4,5,3,4,6,5]])
+array2=np.array([1,2,5,6,3,6,5])
+print(array1)
+print(array1.shape)
+print(array1.dtype)
+print(np.zeros((4,6)))
+print(array1*array1)
+print(array1[0])
+print(array1[1])
+print(array1[0,3])
+print(array2[4:6])
